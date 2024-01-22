@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="flex">
+        <ul class="tictactoe" id="playerSelect">
+            <li>Ko igra prvi?</li>
+            <li>
+                <a class="button" onclick="startGame(); currentChar = 2">iks</a>
+                <a class="button" onclick="startGame();">oks</a>
+            </li>
+        </ul>
+
+        <ul class="tictactoe" id="gameGrid">
+            <li>
+                <a class="button ttt" id="b00">&nbsp;</a>
+                <a class="button ttt" id="b01">&nbsp;</a>
+                <a class="button ttt" id="b02">&nbsp;</a>
+            </li>
+            <li>
+                <a class="button ttt" id="b10">&nbsp;</a>
+                <a class="button ttt" id="b11">&nbsp;</a>
+                <a class="button ttt" id="b12">&nbsp;</a>
+            </li>
+            <li>
+                <a class="button ttt" id="b20">&nbsp;</a>
+                <a class="button ttt" id="b21">&nbsp;</a>
+                <a class="button ttt" id="b22">&nbsp;</a>
+            </li>
+        </ul>
+        <p id="log">&nbsp;</p>
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>
